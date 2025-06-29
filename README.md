@@ -1,2 +1,3 @@
 # eakpython
 A collection of my python projects...
+ - MLP from scratch
