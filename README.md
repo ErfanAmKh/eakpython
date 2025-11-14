@@ -9,11 +9,17 @@ This project involves building a Multi-Layer Perceptron network from scratch wit
 
 The model is demonstrated and evaluated on the classic **Breast Cancer Wisconsin Dataset** from `scikit-learn`.
 
-**Some results for 50 neurons and 0.1 learning rate**
+## Results for 50 Neurons and 0.1 Learning Rate
+
+**Sum of square errors over training set per epoch**
+
+| Metric | Value |
+|--------|-------|
+| Train Accuracy | 99.34% |
+| Test Accuracy | 95.61% |
+
 <img src="images/loss.png" alt="Loss function per epoch" width="60%">
 <img src="images/acc.png" alt="Accuracy over train and test sets" width="60%">
-
-
 
 ### Future Improvements 
 
