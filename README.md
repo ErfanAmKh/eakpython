@@ -1,31 +1,25 @@
 # eakpython
 ## Multilayer Perceptron (MLP) from Scratch
 
-A pure Python/NumPy implementation of a Multilayer Perceptron, built from the ground up to demystify the core concepts of deep learning.
+A pure Python/NumPy implementation of a Multilayer Perceptron, built from the ground up to demystify the core concepts of Neural Networks.
 
 ### Overview
 
-This project implements a Multilayer Perceptron (MLP) entirely from scratch, using only fundamental Python libraries. The deliberate avoidance of high-level machine learning frameworks (such as TensorFlow or PyTorch) provides a deep, hands-on understanding of the core mechanics behind neural networks.
-
-By building the model, training loop, and backpropagation algorithm manually, this project offers invaluable insight into fundamental concepts like:
-*   **Backpropagation** and gradient computation.
-*   The role and impact of **activation functions**.
-*   How **hyperparameters** (learning rate, epochs, etc.) influence training and performance.
+This project involves building a Multi-Layer Perceptron network from scratch without using pre-defined machine learning libraries and packages in Python. I believe that by building the model and training it from scratch, one can understand the processes within a neural network more deeply. Concepts like backpropagation, the effects of hyperparameters, and activation functions can be understood more profoundly and better.
 
 The model is demonstrated and evaluated on the classic **Breast Cancer Wisconsin Dataset** from `scikit-learn`.
 
-### Features
+**Some results for 50 neurons and 0.1 learning rate**
+![Loss function per epoch](loss.png)
+![Accuracy over train and test sets](acc.png)
 
-*   Custom implementation of forward and backward propagation.
-*   Configurable network architecture (number of nodes per layer).
-*   Support for common activation functions (Sigmoid, ReLU, Tanh).
-*   Standard optimization using Gradient Descent.
 
-### Future Improvements & Roadmap
+### Future Improvements 
 
-This is an ongoing project for learning and experimentation. Planned enhancements include:
+The next improvements for the code will be:
 
-*   **Enhanced Visualization:** Implementing plots for training loss/accuracy and a confusion matrix to better evaluate model performance.
-*   **Architectural Depth:** Extending the network to support more than one hidden layer.
-*   **Hyperparameter Analysis:** Creating visualizations to demonstrate the effects of modifying hyperparameters (e.g., learning rate, network architecture) on the final results.
+*   More result visualizations (confusion matrix, etc.)
+*   Implementing more than one hidden layer
+*   Visualizing the effects of modifying each of the hyperparameters on the result
+*   Support for common activation functions
 
