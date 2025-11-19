@@ -62,6 +62,7 @@ A PyTorch-based implementation of a fully connected neural network trained on a 
 This project implements a simple yet effective fully connected neural network using PyTorch, designed to classify handwritten English letters (A–Z). 
 The model is trained on the A_Z Handwritten Alphabet Dataset, a widely used dataset containing thousands of 28×28 grayscale images of handwritten letters.
 The code also supports CUDA, enabling GPU-accelerated training when available.
+You can download the dataset from [this](https://www.kaggle.com/datasets/sachinpatel21/az-handwritten-alphabets-in-csv-format) page. 
 
 
 The network consists of:
