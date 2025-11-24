@@ -72,4 +72,4 @@ The network consists of:
 
 After training, the model consistently achieves over 90% accuracy on both the training and test splits, confirming the effectiveness of this simple architecture.
 The confusion matrix obtained after 15 epochs of training:
-<img src="images/CM-CNN.png" alt="Confusion Matrix for 15 epochs of training" width="60%">
+<img src="images/CM-CNN.png" alt="Confusion Matrix for 15 epochs of training" width="100%">
